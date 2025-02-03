@@ -3,6 +3,8 @@ import { Song, Muscician, Playlist } from "./MusicData.js";
 
 // 2. declare a new constant and assign to it a new musician object to describe the musician for the first song.
 
+const: 
+
 // 3. declare a new constant and assign to it a new musician object to describe the musician for the second song.
 
 // 4. declare a new constant and assign to it a new musician object to describe the musician for the third song.
