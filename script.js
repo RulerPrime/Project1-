@@ -1,27 +1,27 @@
 // 1. Import the all three objects (Song, Musician, Playlist) that you created in the MusicData.js module file
-import { Song, Muscician, Playlist } from "./MusicData.js";
+import { Song, Musician, Playlist } from "./MusicData.js";
 
 // 2. declare a new constant and assign to it a new musician object to describe the musician for the first song.
 
-const playboiCarti = new Muscician("Playboi Carti", "Rapper", "Rage-Rap");
+const playboiCarti = new Musician("Playboi Carti", "Rapper", "Rage-Rap");
 
 // 3. declare a new constant and assign to it a new musician object to describe the musician for the second song.
 
-const dijon = new Muscician("Dijon", "Singer/Songwritter", "Alternative R&B");
+const dijon = new Musician("Dijon", "Singer/Songwritter", "Alternative R&B");
 
 // 4. declare a new constant and assign to it a new musician object to describe the musician for the third song.
-const doechii = new Muscician("Doechii", "Rapper/Singer", "Hip-Hop");
+const doechii = new Musician("Doechii", "Rapper/Singer", "Hip-Hop");
 // 5. declare a new constant and assign to it a new Song object to describe the first song
 // (make sure to use the Musician object from step 2 in creating this Song object
-const over = new Song("Over", "Playboi Carti", "Whole Lotta Red");
+const over = new Song("Over", playboiCarti, "Whole Lotta Red");
 // 6. declare a new constant and assign to it a new Song object to describe the second song
 // (make sure to use the Musician object from step 3 in creating this Song object
-const manyTimes = new Song("Many Times", "Dijon", "Absolutley");
+const manyTimes = new Song("Many Times", dijon, "Absolutley");
 // 7. declare a new constant and assign to it a new Song object to describe the third song
 // (make sure to use the Musician object from step 4 in creating this Song object
 const nissanAltima = new Song(
   "Nissan Altima",
-  "Doechii",
+  doechii,
   "Aligator Bites Never Heal"
 );
 // 8. declare a new constant called myPlaylist and assign to it a new Playlist object and make sure to use the three Song objects
